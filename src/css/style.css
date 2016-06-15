@@ -185,12 +185,13 @@ fieldset {
 
 /* line 1, scss/5_objects/_social.scss */
 .icon {
-  width: 1.625rem;
-  height: 1.625rem;
-  margin: 10px;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 0.625rem;
+  margin-right: 1.5625rem;
   fill: #013054;
 }
-/* line 7, scss/5_objects/_social.scss */
+/* line 8, scss/5_objects/_social.scss */
 .icon:hover {
   fill: #a9be01;
 }
@@ -292,7 +293,7 @@ fieldset {
   display: inline;
   margin-left: 0.625rem;
   vertical-align: super;
-  color: #fffff9;
+  color: #f4f7f9;
 }
 @media (min-width: 30em) {
   /* line 37, scss/6_components/_profile.scss */
@@ -500,16 +501,18 @@ fieldset {
 }
 /* line 35, scss/6_components/_profile-portfolio.scss */
 .profile-portfolio .container .projects-body .projects-box.-card > .text > .heading {
+  font-size: 20px;
+  font-size: 1.25rem;
   padding: 0.625rem 0;
 }
-/* line 39, scss/6_components/_profile-portfolio.scss */
+/* line 40, scss/6_components/_profile-portfolio.scss */
 .profile-portfolio .container .projects-body .projects-box.-card > .text > .sub {
   display: block;
   padding: 0.625rem 0;
-  color: #013054;
+  color: #f4f7f9;
   font-weight: bold;
 }
-/* line 47, scss/6_components/_profile-portfolio.scss */
+/* line 48, scss/6_components/_profile-portfolio.scss */
 .profile-portfolio .container .projects-body .projects-box > .btn {
   margin: 0.625rem;
   display: inline-block;

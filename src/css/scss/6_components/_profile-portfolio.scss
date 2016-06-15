@@ -33,13 +33,14 @@
 					@include rem(padding, 20px 15px	);
 
 					>.heading {
+						@include font-rem(20px);
 						@include rem(padding, 10px 0);
 					}
 
 					>.sub {
 						display: block;
 						@include rem(padding, 10px 0);
-						color: $CorAzul;
+						color: $corCinzaClara;
 						font-weight: bold;
 					}
 				}

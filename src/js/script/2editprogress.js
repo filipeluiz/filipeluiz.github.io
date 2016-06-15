@@ -96,13 +96,27 @@ bar2.text.style.fontFamily = '"Open Sans", sans-serif';
 bar2.text.style.fontSize = '2rem';
 bar2.text.style.fontWeight = "600";
 
+
+
+
+var element = document.getElementById('progress');
+var pos = element.offsetTop;
+var alturaTela = window.innerHeight;
 var hasScrollY = 'scrollY' in window;
 
 window.onscroll = function(e) {
   var y = hasScrollY ? window.scrollY : document.documentElement.scrollTop;
-  if( y >= 783) {
+  var ativar = pos < y + (alturaTela/2);
+
+  if(ativar) {
     bar.animate(0.8);  // Number from 0.0 to 1.0
     bar1.animate(0.75);  // Number from 0.0 to 1.0
     bar2.animate(0.4);  // Number from 0.0 to 1.0
+  } else {
+    bar.animate(0.0);  // Number from 0.0 to 1.0
+    bar1.animate(0.0);  // Number from 0.0 to 1.0
+    bar2.animate(0.0);  // Number from 0.0 to 1.0    
   }
+
+
 }

@@ -1,10 +1,10 @@
 ### content configuration ###
 name: Filipe Luiz
-job: Desenvolvedor Front End 
-title: Filipe Luiz - Desenvolvedor Front End
-description: Um portfolio de um desenvolvedor Front End, Surdo e apaixonado de novas tecnologias.
+job: Desenvolvedor Front-End 
+title: Filipe Luiz - Desenvolvedor Front-End
+description: Um portfolio de um desenvolvedor Front-End, Surdo e apaixonado por novas tecnologias.
 email: ffilipeluiz@gmail.com
-url: "localhost/3000" # the base hostname & protocol for your site
+url: "https://filipeluiz.com.br/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_username: https://plus.google.com/116973113303020587442/
 
@@ -25,7 +25,7 @@ permalink: / ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   auto_ids:  false

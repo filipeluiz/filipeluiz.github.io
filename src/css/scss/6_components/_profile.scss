@@ -38,7 +38,7 @@
 		display: inline;		
 		@include rem(margin-left, 10px);
 		vertical-align: super;
-		color: $corBranca;
+		color: $corCinzaClara;
 
 		@include width_medium {
 			@include font-rem(22px);

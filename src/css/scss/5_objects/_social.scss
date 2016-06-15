@@ -1,10 +1,11 @@
 .icon {
-	@include rem(width, 26px);
-	@include rem(height, 26px);
-	margin: 10px;
-	fill: #013054;
+	@include rem(width, 28px);
+	@include rem(height, 28px);
+	@include rem(margin-top, 10px);
+	@include rem(margin-right, 25px);
+	fill: $CorAzul;
 
 	&:hover {
-		fill: #a9be01;
+		fill: $corVerde;
 	}
 }
