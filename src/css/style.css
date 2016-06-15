@@ -219,7 +219,7 @@ fieldset {
 @media (min-width: 64em) {
   /* line 1, scss/6_components/_header.scss */
   .header-svg {
-    max-height: 39.375rem;
+    max-height: 43.75rem;
   }
   /* line 17, scss/6_components/_header.scss */
   .header-svg .scale {

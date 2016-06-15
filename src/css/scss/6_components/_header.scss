@@ -20,7 +20,7 @@
 			height: 80vh;
 		}
 
-		@include rem(max-height, 630px);
+		@include rem(max-height, 700px);
 	}
 	
 	@include width_large {
