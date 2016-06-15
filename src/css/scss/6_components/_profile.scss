@@ -1,0 +1,77 @@
+.profile-box {
+	position: relative;
+	@include rem(bottom, 45px);
+
+	@include width_medium {
+		@include rem(bottom, 75px);		
+	}
+
+	@include width_tablet {
+		@include rem(bottom, 110px);
+	}
+					
+	>.avatar {
+		position: relative;
+		display: inline-block;
+		@include rem(width, 71px);
+		@include rem(height, 75px);	
+		border: 2px solid $corBranca;
+		border-radius: 50%;
+		vertical-align: middle;
+		box-shadow: 1px 1px 10px #999;
+		
+		@include width_medium {
+			@include rem(width, 121px);
+			@include rem(height, 129px);
+			border: 3px solid $corBranca;
+		}
+
+		@include width_tablet {
+			@include rem(width, 181px);
+			@include rem(height, 189px);
+			border: 5px solid $corBranca;
+		}
+
+	}
+
+	> .name {
+		display: inline;		
+		@include rem(margin-left, 10px);
+		vertical-align: super;
+		color: $corBranca;
+
+		@include width_medium {
+			@include font-rem(22px);
+			@include rem(margin-left, 10px);
+		}
+
+		@include width_tablet {
+			@include font-rem(30px);
+			@include rem(margin-left, 15px);
+		}
+
+		@include width_desktop {
+			@include font-rem(40px);
+			@include rem(margin-left, 30px);			
+		}							
+
+		> .discription {
+			font-weight: 400;
+			@include font-rem(10px);
+			@include rem(line-height, 30px);
+
+			@include width_medium {
+				@include font-rem(15px);
+			}
+	
+			@include width_tablet {
+				@include font-rem(18px);
+			}
+
+			@include width_desktop {
+				@include font-rem(20px);
+			}						
+		}
+	}	
+}
+

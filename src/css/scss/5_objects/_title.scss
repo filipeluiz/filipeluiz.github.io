@@ -1,0 +1,5 @@
+.title {
+	@include font-rem(26px);
+	text-align: center;
+	color: $corBranca;
+}

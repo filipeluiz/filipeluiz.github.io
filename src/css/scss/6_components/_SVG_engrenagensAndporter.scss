@@ -1,0 +1,56 @@
+.gear-1 {
+	transform-origin: 409px 197px;
+	animation: rodaDireta 6s linear infinite;
+}
+
+.gear-2 {
+	transform-origin: 506px 264px;
+	animation: rodaEsquerda 10s linear infinite;	
+}
+
+.gear-3 {
+	transform-origin: 439px 65px;
+	animation: rodaDireta 12s linear infinite;	
+}
+
+.gear-4 {
+	transform-origin: 569px 116px;
+	animation: rodaEsquerda 6s linear infinite;	
+}
+
+.gear-5 {
+	transform-origin: 609px 118px;
+	animation: rodaDireta 6s linear infinite;	
+}
+
+.gear-6 {
+	transform-origin: 465px 220px;
+	animation: rodaDireta 6s linear infinite;	
+}
+
+.gear-7 {
+	transform-origin: 536px 50px;
+	animation: rodaEsquerda 6s linear infinite;	
+}
+
+.gear-8 {
+	transform-origin: 445px 143px;
+	animation: rodaEsquerda 6s linear infinite;	
+}
+
+.porter-red {
+	transform-origin: 569px 116px;
+	animation: rodaEsquerda 10s linear infinite;	
+}
+
+@keyframes rodaDireta {
+	from {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rodaEsquerda {
+	from {
+		transform: rotate(-360deg);
+	}
+}

@@ -1,0 +1,10 @@
+.steam {
+	transform-origin: 326px 257px;
+	animation: vapor 1.5s alternate infinite;
+}
+
+@keyframes vapor{
+	from {
+		transform: translateY(-5px) scaleY(2);
+	}
+}

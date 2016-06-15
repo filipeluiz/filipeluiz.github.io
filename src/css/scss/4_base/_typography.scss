@@ -1,0 +1,9 @@
+body {
+	@include OpenSans();
+	background-color: $corCinzaClara;
+	color: $corPreta;
+}
+
+p {
+	@include rem(padding-bottom, 20px);
+}

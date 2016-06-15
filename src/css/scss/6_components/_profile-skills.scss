@@ -1,0 +1,48 @@
+.profile-skills {
+	background-color: $CorAzul;
+	@include rem(padding, 40px 0);
+
+	&:after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+	.box-skills {
+		@include rem(padding, 40px 0);
+		text-align: center;
+		display: table-cell;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+
+		&.-skills {
+			>.progress-bar {
+				position: relative;
+  				@include rem(margin, 40px); 
+  				flex: 0 0 200px;
+  				display: inline-block;
+
+  				>.subtitle {
+  					@include rem(padding-bottom, 20px);
+  					color: $corBranca;
+  				}
+			}
+		}
+	}
+
+	.knowledge-bar {
+		
+		>.toggle2 {
+			@include rem(margin-bottom, 40px); 
+		}
+
+		>.btn {
+			float: right;
+			border-color: $corBranca;
+			color: $corBranca;
+		}
+	}
+}
+
+

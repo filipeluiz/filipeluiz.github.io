@@ -1,0 +1,70 @@
+/*------------------------------------*\
+    Autor: Filipe Luiz
+    Version: 1.0
+    Website: www.filipeluiz.com.br
+\*------------------------------------*/
+
+/**
+ * #SETTINGS
+ */
+
+@import "1_settings/color.scss";
+
+ /**
+ * #TOOLS
+ */
+@import "2_tools/mixis.scss";
+
+ /**
+ * #GENERIC
+ */
+ 
+@import "3_generic/default_margin_padding.scss";
+@import "3_generic/box_sizing.scss";
+
+ /**
+ * #BASE
+ */
+
+@import "4_base/typography.scss";
+@import "4_base/imagem.scss";
+@import "4_base/link.scss";
+@import "4_base/headings.scss";
+@import "4_base/ordenadas.scss";
+@import "4_base/svg.scss";
+@import "4_base/form.scss";
+
+
+ /**
+ * #OBJECTS
+ */
+@import "5_objects/displayNone.scss";
+@import "5_objects/container.scss";
+@import "5_objects/title.scss";
+@import "5_objects/botao.scss";
+@import "5_objects/toggle.scss";
+@import "5_objects/social.scss";
+
+ /**
+ * #COMPONENTS
+ */
+
+@import "6_components/header.scss";
+@import "6_components/profile.scss";
+@import "6_components/profile-about.scss";
+@import "6_components/profile-skills.scss";
+@import "6_components/profile-portfolio.scss";
+@import "6_components/profile-contact.scss";
+@import "6_components/footer.scss";
+@import "6_components/SVG_engrenagensAndporter.scss";
+@import "6_components/SVG_computador.scss";
+@import "6_components/SVG_maos.scss";
+@import "6_components/SVG_vapor.scss";	
+@import "6_components/SVG_lampada.scss";
+@import "6_components/SVG_mapa.scss";
+@import "6_components/SVG_celular.scss";
+@import "6_components/SVG_tablet.scss";
+
+ /**
+ * #TRUMPS
+ */

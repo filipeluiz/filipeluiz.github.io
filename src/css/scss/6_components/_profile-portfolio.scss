@@ -1,0 +1,58 @@
+.profile-portfolio {
+	@include rem(padding, 40px 0);
+
+	.container {
+		>.title {
+			@include rem(padding-bottom, 40px);
+			color: $CorAzul;
+		}
+
+		.projects-body {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+
+			>.projects-box {
+				max-width: 300px;
+				min-height: 600px;
+				display: inline-block;				
+				flex: 0 0 300px;
+				@include rem(margin, 2px);				
+				overflow: hidden;
+				background-color: #4e70a0;
+				box-shadow: 3px 3px 3px #999;
+			}
+
+			.projects-box {
+				>.img {
+					max-height: 200px;
+				}
+
+				&.-card > .text {
+					color: $corBranca;
+					@include rem(padding, 20px 15px	);
+
+					>.heading {
+						@include rem(padding, 10px 0);
+					}
+
+					>.sub {
+						display: block;
+						@include rem(padding, 10px 0);
+						color: $CorAzul;
+						font-weight: bold;
+					}
+				}
+
+				>.btn {
+					@include rem(margin, 10px);
+					display: inline-block;
+					background-color: $corVerde;
+					border: none;
+					color: $CorAzul;
+				}	
+			}
+		}
+	}	
+}
+

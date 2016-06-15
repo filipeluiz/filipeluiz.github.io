@@ -1,0 +1,21 @@
+.phone {
+  stroke-width: 1px;
+  stroke-dasharray: 50;
+  animation: 10s acao;	
+}
+
+@keyframes acao {
+  0% {
+    fill-opacity: 0;
+    stroke-dashoffset: 50;
+  }
+  70% {
+    fill-opacity: 0;
+    stroke: #b7d600;
+  }
+  100% {
+    fill-opacity: 1;
+    stroke-dashoffset: 0;
+    stroke: none;
+  }
+}

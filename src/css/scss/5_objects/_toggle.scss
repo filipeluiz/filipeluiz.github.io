@@ -1,0 +1,17 @@
+.hide {
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.show {
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in;
+    max-height: 1000px;
+    overflow: hidden;
+}

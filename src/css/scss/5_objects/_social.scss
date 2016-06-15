@@ -1,0 +1,10 @@
+.icon {
+	@include rem(width, 26px);
+	@include rem(height, 26px);
+	margin: 10px;
+	fill: #013054;
+
+	&:hover {
+		fill: #a9be01;
+	}
+}

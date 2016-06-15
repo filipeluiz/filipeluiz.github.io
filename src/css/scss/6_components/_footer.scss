@@ -1,0 +1,29 @@
+.footer {
+	@include rem(padding, 20px 0);
+	background-color: #051936;
+
+	.container {
+		color: $corBranca;
+		text-align: center;
+
+		>.author-job {
+			@include rem(padding, 10px 0);
+			text-transform: uppercase;
+
+			>.author {
+				color: $corBranca;				
+			}
+
+			>.author:hover {
+				color: $corVerde;
+			}
+		}
+
+		>.phrases {
+			padding: 0;
+
+		}
+	}
+}
+
+

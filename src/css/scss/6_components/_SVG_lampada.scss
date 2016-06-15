@@ -1,0 +1,9 @@
+.lamp {
+	animation: acendar 1s ease-in-out infinite alternate;
+}
+
+@keyframes acendar {
+	from {
+		fill: #ffff00;
+	}
+}

@@ -1,0 +1,7 @@
+.none {
+	display: none;
+
+	@include width_desktop {
+		display: block;
+	}
+}
