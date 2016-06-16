@@ -24,14 +24,10 @@
 	}
 	
 	@include width_large {
-		@include rem(max-height, 680px);
+		@include rem(max-height, 768px);
 	}
 	
 	@include width_xlarge {
 		@include rem(max-height, 1000px);
 	}		
 }
-
-
-
-

@@ -17,7 +17,7 @@ social:
     url: https://github.com/filipeluiz
   - name: linkedin2
     title: Veja do meu curriculo no linkedin
-    url: https://www.linkedin.com/in/filipe-luiz-rodrigues-correia-9502076a?trk=nav_responsive_tab_profile_pic
+    url: https://www.linkedin.com/in/ffilipeluiz
 
 ### site serving configuration ###
 exclude: ['package.json', 'src', 'node_modules', '.sass-cache']

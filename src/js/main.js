@@ -2544,7 +2544,7 @@ bar2.text.style.fontWeight = "600";
 
 
 
-var elemento = document.getElementById('progress');
+var elemento = document.querySelector('.box-skills');
 var pos = elemento.offsetTop;
 var alturaTela = window.innerHeight;
 var hasScrollY = 'scrollY' in window;

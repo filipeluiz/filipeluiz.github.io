@@ -185,13 +185,15 @@ fieldset {
 
 /* line 1, scss/5_objects/_social.scss */
 .icon {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
   margin-top: 0.625rem;
   margin-right: 1.5625rem;
   fill: #013054;
+  -webkit-transition: all .2s;
+          transition: all .2s;
 }
-/* line 8, scss/5_objects/_social.scss */
+/* line 9, scss/5_objects/_social.scss */
 .icon:hover {
   fill: #a9be01;
 }
@@ -232,7 +234,7 @@ fieldset {
 @media (min-width: 80em) {
   /* line 1, scss/6_components/_header.scss */
   .header-svg {
-    max-height: 42.5rem;
+    max-height: 48rem;
   }
 }
 @media (min-width: 105em) {
