@@ -99,8 +99,8 @@ bar2.text.style.fontWeight = "600";
 
 
 
-var element = document.getElementById('progress');
-var pos = element.offsetTop;
+var elemento = document.getElementById('progress');
+var pos = elemento.offsetTop;
 var alturaTela = window.innerHeight;
 var hasScrollY = 'scrollY' in window;
 
