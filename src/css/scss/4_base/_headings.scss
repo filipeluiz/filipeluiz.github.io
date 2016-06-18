@@ -11,7 +11,7 @@ h2 {
 	@include rem(line-height, 30px);
 }
 
-h5 {
+h4 {
 	@include rem(padding, 20px 0);
 	@include font-rem(16px);
 	@include FontBold();
