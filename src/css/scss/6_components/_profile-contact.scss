@@ -25,7 +25,7 @@
 				color: $corBranca;
 			}
 	
-			button {
+			input[type='submit'] {
     			position:absolute;
     			right: 0;
     			display: block;
@@ -223,7 +223,8 @@
     			    margin:0;
     			    width:7rem;
     			    border-color:#8cce1e;
-    			    background-color:$CorAzul;
+    			    color:$CorAzul;
+    			    background-color: $corVerde;
     			}
 
 			}

@@ -2,8 +2,9 @@ if (document.forms[0] && window.FormData) {
 
     var form = document.forms[0];
 
-    var statusMessage = document.querySelector(".form button");
+    var statusMessage = document.getElementById('button-ipunt');
     statusMessage.className = '';
+
 
     // Set up the AJAX request
     var request = new XMLHttpRequest();
@@ -35,6 +36,14 @@ if (document.forms[0] && window.FormData) {
                     form.insertAdjacentHTML('beforeend', 'error');
             }
         }
+
+        var changeValue = function() {
+            if(statusMessage.className = 'ready') {
+                statusMessage.value = "Enviado";
+            }
+        }    
+
+        statusMessage.addEventListener('click', changeValue());
     });
 
 }

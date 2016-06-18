@@ -569,7 +569,7 @@ fieldset {
   color: #fffff9;
 }
 /* line 28, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button {
+.profile-contact .box-form > .form input[type='submit'] {
   position: absolute;
   right: 0;
   display: block;
@@ -590,13 +590,13 @@ fieldset {
           transition: transform .125s;
 }
 /* line 46, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button:active {
+.profile-contact .box-form > .form input[type='submit']:active {
   -webkit-transform: scale(0.9, 0.9);
       -ms-transform: scale(0.9, 0.9);
           transform: scale(0.9, 0.9);
 }
 /* line 50, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button:before, .profile-contact .box-form > .form button:after {
+.profile-contact .box-form > .form input[type='submit']:before, .profile-contact .box-form > .form input[type='submit']:after {
   position: absolute;
   opacity: 0;
   -webkit-border-radius: 50%;
@@ -612,25 +612,25 @@ fieldset {
   z-index: 1;
 }
 /* line 68, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button.loading {
+.profile-contact .box-form > .form input[type='submit'].loading {
   -webkit-animation: button-loading .5s forwards;
           animation: button-loading .5s forwards;
   background-color: #013054;
 }
 /* line 73, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button.loading:before {
+.profile-contact .box-form > .form input[type='submit'].loading:before {
   opacity: 1;
   -webkit-animation: button-dot-intro .5s forwards;
           animation: button-dot-intro .5s forwards;
 }
 /* line 78, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button.loading:after {
+.profile-contact .box-form > .form input[type='submit'].loading:after {
   opacity: 0;
   -webkit-animation: button-dot-pulse 1.5s infinite .5s;
           animation: button-dot-pulse 1.5s infinite .5s;
 }
 /* line 83, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button.ready {
+.profile-contact .box-form > .form input[type='submit'].ready {
   text-indent: 0;
   color: transparent;
   background-color: #5585ff;
@@ -638,7 +638,7 @@ fieldset {
           animation: button-ready .333s forwards;
 }
 /* line 90, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button.ready:before {
+.profile-contact .box-form > .form input[type='submit'].ready:before {
   position: absolute;
   left: 0;
   right: 0;
@@ -657,7 +657,7 @@ fieldset {
           animation: button-ready-label .5s forwards .275s;
 }
 /* line 107, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .form button.ready:after {
+.profile-contact .box-form > .form input[type='submit'].ready:after {
   opacity: 1;
   -webkit-animation: button-dot-outro .333s;
           animation: button-dot-outro .333s;
@@ -834,7 +834,8 @@ fieldset {
     margin: 0;
     width: 7rem;
     border-color: #8cce1e;
-    background-color: #013054;
+    color: #013054;
+    background-color: #a9be01;
   }
 }
 @keyframes button-ready {
@@ -857,7 +858,8 @@ fieldset {
     margin: 0;
     width: 7rem;
     border-color: #8cce1e;
-    background-color: #013054;
+    color: #013054;
+    background-color: #a9be01;
   }
 }
 @-webkit-keyframes button-dot-outro {
@@ -896,7 +898,7 @@ fieldset {
     opacity: 1;
   }
 }
-/* line 256, scss/6_components/_profile-contact.scss */
+/* line 257, scss/6_components/_profile-contact.scss */
 .profile-contact .box-form > .ilustrado {
   background: transparent url("../images/SVG/contact.svg") left top no-repeat;
   background-size: 100% 100%;
@@ -904,12 +906,12 @@ fieldset {
   display: none;
 }
 @media (min-width: 48em) {
-  /* line 256, scss/6_components/_profile-contact.scss */
+  /* line 257, scss/6_components/_profile-contact.scss */
   .profile-contact .box-form > .ilustrado {
     display: block;
   }
 }
-/* line 268, scss/6_components/_profile-contact.scss */
+/* line 269, scss/6_components/_profile-contact.scss */
 .profile-contact .input {
   position: relative;
   z-index: 1;
@@ -919,11 +921,11 @@ fieldset {
   width: calc(100% - 2em);
   vertical-align: top;
 }
-/* line 277, scss/6_components/_profile-contact.scss */
+/* line 278, scss/6_components/_profile-contact.scss */
 .profile-contact .submit {
   display: block;
 }
-/* line 281, scss/6_components/_profile-contact.scss */
+/* line 282, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field {
   position: relative;
   display: block;
@@ -943,11 +945,11 @@ fieldset {
   -webkit-appearance: none;
   /* for box shadows to show on iOS */
 }
-/* line 298, scss/6_components/_profile-contact.scss */
+/* line 299, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field:focus {
   outline: none;
 }
-/* line 302, scss/6_components/_profile-contact.scss */
+/* line 303, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label {
   display: inline-block;
   float: right;
@@ -965,18 +967,18 @@ fieldset {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 320, scss/6_components/_profile-contact.scss */
+/* line 321, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label-content {
   position: relative;
   display: block;
   padding: .8em 0;
   width: 100%;
 }
-/* line 327, scss/6_components/_profile-contact.scss */
+/* line 328, scss/6_components/_profile-contact.scss */
 .profile-contact .input--chisato {
   padding-top: 1em;
 }
-/* line 331, scss/6_components/_profile-contact.scss */
+/* line 332, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato {
   width: 100%;
   font-size: 80%;
@@ -987,7 +989,7 @@ fieldset {
   -webkit-transition: border-color 0.25s;
   transition: border-color 0.25s;
 }
-/* line 342, scss/6_components/_profile-contact.scss */
+/* line 343, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label--chisato {
   width: 100%;
   position: absolute;
@@ -999,13 +1001,13 @@ fieldset {
   -webkit-transform: translate3d(0, 3em, 0);
   transform: translate3d(0, 3em, 0);
 }
-/* line 354, scss/6_components/_profile-contact.scss */
+/* line 355, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label-content--chisato {
   padding: 0 1em;
   font-weight: 400;
   color: #fffff9;
 }
-/* line 360, scss/6_components/_profile-contact.scss */
+/* line 361, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label-content--chisato::after {
   content: attr(data-content);
   position: absolute;
@@ -1014,18 +1016,18 @@ fieldset {
   color: #a9be01;
   font-weight: 800;
 }
-/* line 369, scss/6_components/_profile-contact.scss */
+/* line 370, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato:focus,
 .profile-contact .input--filled .input__field--chisato {
   border-color: #a9be01;
 }
-/* line 374, scss/6_components/_profile-contact.scss */
+/* line 375, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato:focus + .input__label--chisato,
 .profile-contact .input--filled .input__label--chisato {
   -webkit-animation: anim-chisato-1 0.25s forwards;
   animation: anim-chisato-1 0.25s forwards;
 }
-/* line 380, scss/6_components/_profile-contact.scss */
+/* line 381, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato:focus + .input__label--chisato .input__label-content--chisato,
 .profile-contact .input--filled .input__label-content--chisato {
   -webkit-animation: anim-chisato-2 0.25s forwards ease-in;
