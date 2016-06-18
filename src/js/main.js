@@ -4250,7 +4250,7 @@ if (document.forms[0] && window.FormData) {
 
     var form = document.forms[0];
 
-    var statusMessage = document.getElementById('button-ipunt');
+    var statusMessage = document.querySelector('input[type="submit"]');
     statusMessage.className = '';
 
 
