@@ -40,6 +40,10 @@
 		position: relative;
 		@include rem(padding-bottom, 60px);
 
+		>.link-icon {
+			@include rem(margin-right, 22px);
+		}
+
 		&.-button > .btn {
 			position: absolute;
 			right: 0;

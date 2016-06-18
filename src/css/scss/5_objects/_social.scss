@@ -1,8 +1,8 @@
 .icon {
-	@include rem(width, 24px);
-	@include rem(height, 24px);
+	@include rem(width, 26px);
+	@include rem(height, 26px);
 	@include rem(margin-top, 10px);
-	@include rem(margin-right, 25px);
+
 	fill: $CorAzul;
 	transition: all .2s;
 

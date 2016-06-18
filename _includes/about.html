@@ -29,7 +29,7 @@
 
 						<div class="social -button">
 						{% for social in site.social %}
-							<a aria-label="{{ social.title }}" href="{{ social.url }}" title="{{ social.title }}" target="_blank">
+							<a class="link-icon" aria-label="{{ social.title }}" href="{{ social.url }}" title="{{ social.title }}" target="_blank">
 								<svg class="icon"><use xlink:href="#icon-{{ social.name }}"></use></svg>
 							</a>
 						{% endfor %}	

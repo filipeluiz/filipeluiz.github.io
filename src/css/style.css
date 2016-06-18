@@ -185,10 +185,9 @@ fieldset {
 
 /* line 1, scss/5_objects/_social.scss */
 .icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.625rem;
+  height: 1.625rem;
   margin-top: 0.625rem;
-  margin-right: 1.5625rem;
   fill: #013054;
   -webkit-transition: all .2s;
           transition: all .2s;
@@ -393,6 +392,10 @@ fieldset {
   padding-bottom: 3.75rem;
 }
 /* line 43, scss/6_components/_profile-about.scss */
+.profile-about .social > .link-icon {
+  margin-right: 1.375rem;
+}
+/* line 47, scss/6_components/_profile-about.scss */
 .profile-about .social.-button > .btn {
   position: absolute;
   right: 0;
