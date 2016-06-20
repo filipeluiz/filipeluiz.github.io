@@ -5,7 +5,6 @@ if (document.forms[0] && window.FormData) {
     var statusMessage = document.querySelector('input[type="submit"]');
     statusMessage.className = '';
 
-
     // Set up the AJAX request
     var request = new XMLHttpRequest();
     request.open('POST', 'https://formspree.io/ffilipeluiz@gmail.com', true);
@@ -36,14 +35,11 @@ if (document.forms[0] && window.FormData) {
                     form.insertAdjacentHTML('beforeend', 'error');
             }
         }
-
-        var changeValue = function() {
+ 
+        statusMessage.addEventListener('click', function(){
             if(statusMessage.className = 'ready') {
                 statusMessage.value = "Enviado";
             }
-        }    
-
-        statusMessage.addEventListener('click', changeValue());
+        });
     });
-
 }
