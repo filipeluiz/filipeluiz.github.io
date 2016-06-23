@@ -252,17 +252,6 @@
     			}
 
 			}			
-		}
-
-		>.ilustrado {
-			background:transparent url('../images/SVG/contact.svg') left top no-repeat;
-			background-size: 100% 100%;
-			border-right: 2px solid $corBranca;
-			display: none;
-
-			@include width_tablet {
-				display: block;
-			}
 		}		
 	}
 
@@ -273,10 +262,6 @@
 		margin: 0.5em;
 		width: calc(100% - 2em);
 		vertical-align: top;
-	}
-
-	.submit {
-		display: block;
 	}
 
 	.input__field {

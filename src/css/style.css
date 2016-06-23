@@ -293,6 +293,11 @@ fieldset {
   }
 }
 
+/* line 9, scss/5_objects/_displayNone.scss */
+.is-hidden {
+  display: none;
+}
+
 /* line 1, scss/5_objects/_container.scss */
 .container {
   width: 95%;
@@ -1066,20 +1071,7 @@ fieldset {
     opacity: 1;
   }
 }
-/* line 257, scss/6_components/_profile-contact.scss */
-.profile-contact .box-form > .ilustrado {
-  background: transparent url("../images/SVG/contact.svg") left top no-repeat;
-  background-size: 100% 100%;
-  border-right: 2px solid #fffff9;
-  display: none;
-}
-@media (min-width: 48em) {
-  /* line 257, scss/6_components/_profile-contact.scss */
-  .profile-contact .box-form > .ilustrado {
-    display: block;
-  }
-}
-/* line 269, scss/6_components/_profile-contact.scss */
+/* line 258, scss/6_components/_profile-contact.scss */
 .profile-contact .input {
   position: relative;
   z-index: 1;
@@ -1089,11 +1081,7 @@ fieldset {
   width: calc(100% - 2em);
   vertical-align: top;
 }
-/* line 278, scss/6_components/_profile-contact.scss */
-.profile-contact .submit {
-  display: block;
-}
-/* line 282, scss/6_components/_profile-contact.scss */
+/* line 267, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field {
   position: relative;
   display: block;
@@ -1113,11 +1101,11 @@ fieldset {
   -webkit-appearance: none;
   /* for box shadows to show on iOS */
 }
-/* line 299, scss/6_components/_profile-contact.scss */
+/* line 284, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field:focus {
   outline: none;
 }
-/* line 303, scss/6_components/_profile-contact.scss */
+/* line 288, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label {
   display: inline-block;
   float: right;
@@ -1135,18 +1123,18 @@ fieldset {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 321, scss/6_components/_profile-contact.scss */
+/* line 306, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label-content {
   position: relative;
   display: block;
   padding: .8em 0;
   width: 100%;
 }
-/* line 328, scss/6_components/_profile-contact.scss */
+/* line 313, scss/6_components/_profile-contact.scss */
 .profile-contact .input--chisato {
   padding-top: 1em;
 }
-/* line 332, scss/6_components/_profile-contact.scss */
+/* line 317, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato {
   width: 100%;
   font-size: 80%;
@@ -1157,7 +1145,7 @@ fieldset {
   -webkit-transition: border-color 0.25s;
   transition: border-color 0.25s;
 }
-/* line 343, scss/6_components/_profile-contact.scss */
+/* line 328, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label--chisato {
   width: 100%;
   position: absolute;
@@ -1169,13 +1157,13 @@ fieldset {
   -webkit-transform: translate3d(0, 3em, 0);
   transform: translate3d(0, 3em, 0);
 }
-/* line 355, scss/6_components/_profile-contact.scss */
+/* line 340, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label-content--chisato {
   padding: 0 1em;
   font-weight: 400;
   color: #fffff9;
 }
-/* line 361, scss/6_components/_profile-contact.scss */
+/* line 346, scss/6_components/_profile-contact.scss */
 .profile-contact .input__label-content--chisato::after {
   content: attr(data-content);
   position: absolute;
@@ -1184,18 +1172,18 @@ fieldset {
   color: #a9be01;
   font-weight: 800;
 }
-/* line 370, scss/6_components/_profile-contact.scss */
+/* line 355, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato:focus,
 .profile-contact .input--filled .input__field--chisato {
   border-color: #a9be01;
 }
-/* line 375, scss/6_components/_profile-contact.scss */
+/* line 360, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato:focus + .input__label--chisato,
 .profile-contact .input--filled .input__label--chisato {
   -webkit-animation: anim-chisato-1 0.25s forwards;
   animation: anim-chisato-1 0.25s forwards;
 }
-/* line 381, scss/6_components/_profile-contact.scss */
+/* line 366, scss/6_components/_profile-contact.scss */
 .profile-contact .input__field--chisato:focus + .input__label--chisato .input__label-content--chisato,
 .profile-contact .input--filled .input__label-content--chisato {
   -webkit-animation: anim-chisato-2 0.25s forwards ease-in;
