@@ -293,11 +293,6 @@ fieldset {
   }
 }
 
-/* line 9, scss/5_objects/_displayNone.scss */
-.is-hidden {
-  display: none;
-}
-
 /* line 1, scss/5_objects/_container.scss */
 .container {
   width: 95%;
