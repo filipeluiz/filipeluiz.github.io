@@ -7,6 +7,7 @@ email: ffilipeluiz@gmail.com
 url: "https://filipeluiz.com.br/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_username: https://plus.google.com/116973113303020587442/
+keywords: Filipe Luiz surdo, desenvolvimento web surdo, desenvolvedor surdo, Front-End surdo, HTML5 surdo, CSS3 surdo, JavaScript surdo
 
 social:
   - name: twitter
