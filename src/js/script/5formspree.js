@@ -24,22 +24,21 @@ if (document.forms[0] && window.FormData) {
         // Watch for changes to request.readyState and update the statusMessage accordingly
         request.onreadystatechange = function () {
             // <4 =  waiting on response from server
-            if (request.readyState < 4)
+            if (request.readyState < 4) {
                 statusMessage.className = 'loading';
+            }
             // 4 = Response from server has been completely loaded.
             else if (request.readyState === 4) {
                 // 200 - 299 = successful
-                if (request.status == 200 && request.status < 300)
-                    statusMessage.className = 'ready';
-                else
+                if (request.status == 200 && request.status < 300){
+                    statusMessage.className = 'ready'; 
+                    statusMessage.value = "Enviado"; 
+                }
+                else {
                     form.insertAdjacentHTML('beforeend', 'error');
+                }
             }
         }
- 
-        statusMessage.addEventListener('click', function(){
-            if(statusMessage.className = 'ready') {
-                statusMessage.value = "Enviado";
-            }
-        });
-    });
+    });    
 }
+
