@@ -24,6 +24,7 @@
   				display: inline-block;
 
   				>.subtitle {
+  					@include font-rem(18px);
   					@include rem(padding-bottom, 20px);
   					color: $corBranca;
   				}

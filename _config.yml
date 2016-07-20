@@ -1,13 +1,12 @@
 ### content configuration ###
 name: Filipe Luiz
 job: Desenvolvedor Front-End 
-title: Filipe Luiz - Desenvolvedor Front-End
-description: Um portfolio de um desenvolvedor Front-End, Surdo e apaixonado por novas tecnologias.
+title: Filipe Luiz - Desenvolvedor Front-End e Surdo
+description: Um portfólio de um desenvolvedor Front-End, surdo, autodidata e apaixonado por novas tecnologias.
 email: ffilipeluiz@gmail.com
 url: "https://filipeluiz.com.br/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_username: https://plus.google.com/116973113303020587442/
-keywords: Filipe Luiz surdo, desenvolvimento web surdo, desenvolvedor surdo, Front-End surdo, HTML5 surdo, CSS3 surdo, JavaScript surdo
 
 social:
   - name: twitter

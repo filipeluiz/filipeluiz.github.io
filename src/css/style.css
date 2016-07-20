@@ -72,7 +72,7 @@ h2 {
 }
 
 /* line 14, scss/4_base/_headings.scss */
-h4 {
+h3 {
   padding: 1.25rem 0;
   font-size: 16px;
   font-size: 1rem;
@@ -611,14 +611,16 @@ fieldset {
 }
 /* line 26, scss/6_components/_profile-skills.scss */
 .profile-skills .box-skills.-skills > .progress-bar > .subtitle {
+  font-size: 18px;
+  font-size: 1.125rem;
   padding-bottom: 1.25rem;
   color: #fffff9;
 }
-/* line 36, scss/6_components/_profile-skills.scss */
+/* line 37, scss/6_components/_profile-skills.scss */
 .profile-skills .knowledge-bar > .toggle2 {
   margin-bottom: 2.5rem;
 }
-/* line 40, scss/6_components/_profile-skills.scss */
+/* line 41, scss/6_components/_profile-skills.scss */
 .profile-skills .knowledge-bar > .btn {
   float: right;
   border-color: #fffff9;
@@ -1250,18 +1252,20 @@ fieldset {
 }
 /* line 9, scss/6_components/_footer.scss */
 .footer .container > .author-job {
+  font-size: 18px;
+  font-size: 1.125rem;
   padding: 0.625rem 0;
   text-transform: uppercase;
 }
-/* line 13, scss/6_components/_footer.scss */
+/* line 14, scss/6_components/_footer.scss */
 .footer .container > .author-job > .author {
   color: #fffff9;
 }
-/* line 17, scss/6_components/_footer.scss */
+/* line 18, scss/6_components/_footer.scss */
 .footer .container > .author-job > .author:hover {
   color: #a9be01;
 }
-/* line 22, scss/6_components/_footer.scss */
+/* line 23, scss/6_components/_footer.scss */
 .footer .container > .phrases {
   padding: 0;
 }
