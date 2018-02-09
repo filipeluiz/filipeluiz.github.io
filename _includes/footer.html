@@ -1,18 +1,22 @@
-	<footer class="footer" role="contentinfo">
-		<div class="container">
-			<h3 class="author-job">
-			
-				<a class="author" href="https://plus.google.com/116973113303020587442" rel="author" target="_blank">
-					Filipe Luiz
-				</a> 
-				<span>- Desenvolvedor Front-End</span>
-			</h3>
+<!-- Always create iframes to embed videos if present. See: http://semantic-ui.com/modules/embed.html -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
+<script>
+  $('.ui.embed').embed();
+</script>
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-			<p class="phrases">
-				<i>"Não desista na primeira dificuldade ou você nunca será um vencedor"</i>
-			</p>
-
-		</div>
-	</footer>	
-	<!-- End footer -->
-	<script src="assets/js/main.min.js"></script>
+  ga('create', 'UA-79440012-1', 'auto');
+  ga('send', 'pageview');
+</script>

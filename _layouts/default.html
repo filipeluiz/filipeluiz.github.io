@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR" itemscope itemtype="http://schema.org/WebPage">
+<html lang="pt-BR">
+
 {% include head.html %}
-	<body>
-		{% include svg_no_display.html %}
-		{% include header.html %}
-		<main role="main" itemscope itemprop="mainContentOfPage">		
-			{% include about.html %}
-			{% include skills.html %}
-			{% include portfolio.html %}
-			{% include contact.html %}
-			{% include footer.html %}
-		</main>
-	</body>
-</html>	
+
+<body>
+  {{ content }} {% include footer.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!-- Used by theme-bio-certificates -->
+
+{% if site.data.bio.certificates %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">Certificado</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    {% for entry in site.data.bio.certificates %}
+
+    <div class="ui grid">
+      <div class="sixteen wide column no-bottom">
+        <p class="ui no-bottom">
+          <b><a href="{{ entry.link_certificate }}" target="_blank">{{ entry.title }}</a></b>, <a href="{{ entry.website }}" target="_blank">{{ entry.issuing_body }}</a>{% if entry.date %}, <time datetime="{{ entry.date }}">{% include date.html date=entry.date %}</time>{%
+          endif %} {% if entry.endDate %} a {% endif %} {% if entry.endDate %}<time datetime="{{ entry.endDate }}">{% include date.html date=entry.endDate %}</time>{% endif %}
+        </p>
+        <p class="ui">{{ entry.summary }}</p>
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

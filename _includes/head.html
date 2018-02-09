@@ -1,42 +1,33 @@
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ site.title }}</title>
-	<meta name="description" content="{{site.description}}">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="{{ site.data.bio.basics.description }}">
 
-	<!-- Google Authorship Markup -->
-	<meta name="google-site-verification" content="Hx7UtnYhJuOipkjO1AEGHUewVV04nonEzXoRPC67KQc" />
-	<meta name="author" content="{{site.google_username}}">
+  <title>
+    {% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}
+  </title>
 
-	<!-- Social: Google+ / Schema.org  -->
-	<meta itemprop="name" content="{{site.title}}"/>
-	<meta itemprop="description" content="{{site.description}}">
-	<meta itemprop="image" content="">
-	
-	<!-- Favicon -->	
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-touch-icon-152x152.png">
-	<link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="assets/images/favicon/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="assets/images/favicon/manifest.json">
-	<link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css">
 
-	<!-- Windows 8 Tile Icons -->
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="msapplication-TileImage" content="assets/images/favicon/mstile-144x144.png">
-	
-	<!-- Android Lolipop Theme Color -->
-	<meta name="theme-color" content="#ffffff">
+  <!-- Load Techfolio CSS customizations -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-default.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-customizations.css">
 
-	<!-- StyleSheet -->
-	<link rel="stylesheet" href="assets/css/style.min.css">
-	
-	<link rel="canonical" href="https://filipeluiz.com.br">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
+
+  <!-- Load a rouge theme from the sample themes in css/rouge.
+       See https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+  -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css">
+
+  <link rel="canonical" href="https://filipeluiz.com.br">
+  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+  {% if site.mathjax %}
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
+
+
 </head>

@@ -1,33 +1,27 @@
-### content configuration ###
-name: Filipe Luiz
-job: Desenvolvedor Front-End 
+# Site settings
+
+# REQUIRED CHANGES
+# Edit next line, providing your own name.
 title: Filipe Luiz - Desenvolvedor Front-End e Surdo
-description: Um portfólio de um desenvolvedor Front-End, surdo, autodidata e apaixonado por novas tecnologias.
-email: ffilipeluiz@gmail.com
-url: "https://filipeluiz.com.br/" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
-google_username: https://plus.google.com/116973113303020587442/
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://filipeluiz.com.br/"
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: ""
 
-social:
-  - name: twitter
-    title: Veja no meu twitter
-    url: https://twitter.com/filipelluiz
-  - name: github
-    title: Veja o meu código no github
-    url: https://github.com/filipeluiz
-  - name: linkedin2
-    title: Veja do meu curriculo no linkedin
-    url: https://www.linkedin.com/in/ffilipeluiz
+# OPTIONAL CHANGES
+# You might want to change the bio page label to something else, such as CV
+bio-page-label: Currículo
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: theme-home-builtin-1.html
+theme-projects: theme-projects-builtin-1.html
+theme-essays: theme-essays-builtin-1.html
+theme-bio: theme-bio-builtin-1.html
 
-### site serving configuration ###
-exclude: ['package.json', 'src', 'node_modules', '.sass-cache']
-permalink: / ## disables post output
-timezone: null
-lsi: false
+# Specify the rouge syntax highlighter theme. Pick one from css/rouge.
+rouge-theme: gruvbox
+
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  auto_ids:  false
-
+include: [_data]
 
