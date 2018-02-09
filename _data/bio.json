@@ -37,9 +37,7 @@
   "interests": [{
       "name": "Front-End",
       "keywords": [
-        "ReactJS",
-        "VueJs",
-        "ArgularJS"
+        "VueJs"
       ]
     },
     {
