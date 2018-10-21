@@ -65,7 +65,7 @@
       "name": "Ferramentas/SO",
       "level": "",
       "keywords": [
-        "Ubuntu",
+        "Debian",
         "Git/GitHub",
         "Bitbucket",
         "Visual Studio Code/Sublime Text 3"
@@ -87,7 +87,7 @@
 
   ],
   "education": [{
-    "institution": "Universidade Católica de Pernambuco - UNICAP",
+    "institution": "Universidade Católica de Pernambuco - Unicap",
     "area": "Ciência da Computação",
     "studyType": "Bacharelado em",
     "startDate": "2018-02-15",
