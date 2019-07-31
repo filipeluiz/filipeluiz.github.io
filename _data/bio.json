@@ -90,8 +90,8 @@
     "institution": "Universidade Católica de Pernambuco - Unicap",
     "area": "Ciência da Computação",
     "studyType": "Bacharelado em",
-    "startDate": "2018-02-15",
-    "endDate": "",
+    "startDate": "2018.1-02-15",
+    "endDate": "Presente",
     "gpa": "",
     "courses": []
   }],
@@ -121,6 +121,15 @@
     }
   ],
   "certificates": [{
+      "title": "MEAN STACK: CRIANDO APLICAÇÕES COMPLETAS COM JAVASCRIPT",
+      "link_certificate": "https://cursos.alura.com.br/certificate/694b0a54-5c4d-4192-bf2f-c99ecdab2ee9",
+      "date": "2019-07-11",
+      "endDate": "2019-07-18",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "MEAN Stack é uma solução completa para desenvolvimento de aplicações Web na plataforma Node.js."
+    },
+    {
       "title": "MONGODB: UMA ALTERNATIVA AOS BANCOS RELACIONAIS TRADICIONAIS",
       "link_certificate": "https://cursos.alura.com.br/certificate/46ecff4e-cdd1-4a2f-92b6-606a4d40f1db",
       "date": "2017-09-09",
