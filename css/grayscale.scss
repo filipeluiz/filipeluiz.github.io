@@ -193,7 +193,7 @@ a {
             font-size: 40px;
         }
         .intro-text {
-            font-size: 18px;
+            font-family: 'VT323', monospace;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
@@ -207,7 +207,7 @@ a {
                 font-size: 100px;
             }
             .intro-text {
-                font-size: 26px;
+                font-size: 36px;
             }
         }
     }
@@ -382,7 +382,7 @@ body {
     font-size: 16px;
     vertical-align: top;
     @media(min-width:768px) {
-        font-size: 22px;
+        font-size: 28px;
     }
 }
 @keyframes blink{
