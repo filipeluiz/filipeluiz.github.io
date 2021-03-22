@@ -174,12 +174,12 @@ a {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
-    {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    {% if site.background-img-1360x768 %}
+        background: url({{ site.background-img-1360x768 }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -199,7 +199,71 @@ a {
             }
         }
     }
-    @media(min-width:768px) {
+    @media(max-width: 320px) {
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 40px;
+            }
+            .intro-text {
+                font-size: 24px;
+            }
+        }        
+        {% if site.background-img-Iphone5 %}
+            background: url({{ site.background-img-Iphone5 }}) no-repeat bottom center scroll;
+        {% endif %}        
+    }
+    
+    @media(min-width: 360px){
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 42px;
+            }
+            .intro-text {
+                font-size: 26px;
+            }
+        }        
+        {% if site.background-img-AndroidSmall %}
+            background: url({{ site.background-img-AndroidSmall }}) no-repeat bottom center scroll;
+        {% endif %}        
+    }
+
+    @media(min-width: 375px) {
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 42px;
+            }
+            .intro-text {
+                font-size: 26px;
+            }
+        }        
+        {% if site.background-img-IphoneX %}
+            background: url({{ site.background-img-IphoneX }}) no-repeat bottom center scroll;
+        {% endif %}        
+    }
+
+    @media(min-width: 414px){
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 42px;
+            }
+            .intro-text {
+                font-size: 26px;
+            }
+        }        
+        {% if site.background-img-Iphone8Plus %}
+            background: url({{ site.background-img-Iphone8Plus }}) no-repeat bottom center scroll;
+        {% endif %}        
+    }      
+
+    @media(min-width: 930px) {
         height: 100%;
         padding: 0;
         .intro-body {
@@ -210,7 +274,42 @@ a {
                 font-size: 36px;
             }
         }
+        {% if site.background-img-930x569 %}
+            background: url({{ site.background-img-930x569 }}) no-repeat bottom center scroll;
+        {% endif %}         
     }
+
+    @media(min-width: 1360px) {
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 100px;
+            }
+            .intro-text {
+                font-size: 36px;
+            }
+        }
+        {% if site.background-img-1360x768 %}
+            background: url({{ site.background-img-1360x768 }}) no-repeat bottom center scroll;
+        {% endif %}         
+    } 
+
+    @media(min-width: 1920px) {
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 100px;
+            }
+            .intro-text {
+                font-size: 36px;
+            }
+        }
+        {% if site.background-img-1920x1080 %}
+            background: url({{ site.background-img-1920x1080 }}) no-repeat bottom center scroll;
+        {% endif %}         
+    }       
 }
 
 @-webkit-keyframes pulse {
