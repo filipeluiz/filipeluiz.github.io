@@ -68,10 +68,10 @@ start-delay: 100
 delete-delay: 3000
 lines: # You can add HTML Tags in the Text
   - text: "Olá, eu sou Filipe Luiz."
-  - text: "Desenvolvedor e Estudante Surdo."
+  - text: "Surdo, Desenvolvedor e Estudante."
 
 me-img: "/img/FilipeLuiz.jpeg"
-alt: "Foto com meu perfil, cabelo preto, olho castalho e camisa azul e olhando em frente de camêra"
+alt: "Foto com meu perfil, cabelo preto, bigode, olho castalho, camisa preta e olhando em frente de camêra"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -159,7 +159,7 @@ events:
     description: "Graduação de Ciência da Computação"
   - image: "/img/timeline/Job-Search.jpg"
     date: "2021"
-    description: "Pretender procurar um job/estágio de desenvolvedor software"    
+    description: "Pretendo procurar um job/estágio de desenvolvedor software"    
 
 # First image of the Timeline  
 
