@@ -2,6 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in site.pages %}
     {% if page.sitemap != null and page.sitemap != empty %}
@@ -33,4 +34,17 @@ layout: null
       <priority>1.0</priority>
     </url>
   {% endfor %}
+=======
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://filipeluiz.com.br/</loc>
+  <lastmod>2016-06-23T01:50:42+00:00</lastmod>
+</url>
+>>>>>>> 2c8fe1e6ed4fc8eb010a2f1c503d53b58da459ae
 </urlset>

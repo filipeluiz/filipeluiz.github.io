@@ -1,0 +1,249 @@
+{
+  "basics": {
+    "name": "Filipe Luiz",
+    "nameComplete": "Filipe Luiz Rodrigues Correia",
+    "label": "Programador autodidata e Surdo",
+    "description": "Programador autodidata, surdo, e apaixonado por novas tecnologias.",
+    "picture": "../images/avatarFilipe.png",
+    "descriptionPicture": "foto do meu rosto.",
+    "email": "ffilipeluiz@gmail.com",
+    "phone": "(81) 99702-8550 (apenas WhatsApp e sms)",
+    "website": "https://filipeluiz.com.br",
+    "summary": "Eu sou surdo, programador autodidata e estudante do curso de Ciência da Computação na Universidade Católica de Pernambuco (Unicap). Fiquei entusiasmado com o Java e principalmente JavaScript por ser uma linguagem de programação incrível, que após a versão ES6 me deixou com vontade de aprender mais com outros tipos de linguagem de alto nível, como C/C++, C#, Phyton e Ruby. Tenho facilidade em aprender novas tecnologias e gosto muito de codificação, orientação a objetos e TDD. Estudo programação sozinho há 3 anos. Leio muitos artigos, blogs, cursos e livros e assisto a vídeos práticos e teóricos sobre a linguagem JavaScript.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Recife",
+      "countryCode": "Brasil",
+      "region": "Pernambuco"
+    },
+    "profiles": [{
+        "network": "github",
+        "username": "filipeluiz",
+        "url": "https://github.com/filipeluiz"
+      },
+      {
+        "network": "linkedin",
+        "username": "ffilipeluiz",
+        "url": "https://www.linkedin.com/in/ffilipeluiz/"
+      },
+      {
+        "network": "twitter",
+        "username": "filipelluiz",
+        "url": "https://twitter.com/filipelluiz"
+      }
+    ]
+  },
+  "interests": [{
+      "name": "Front-End",
+      "keywords": [
+        "VueJs"
+      ]
+    },
+    {
+      "name": "FullStack",
+      "keywords": [
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "TDD"
+      ]
+    },
+    {
+      "name": "JavaScript Robotics",
+      "keywords": []
+    }
+  ],
+  "skills": [{
+      "name": "Linguages e Frameworks",
+      "level": "",
+      "keywords": [
+        "JavaScript, HTML5, SASS, VueJS, NodeJs e TDD"
+      ]
+    },
+    {
+      "name": "Ferramentas/SO",
+      "level": "",
+      "keywords": [
+        "Debian",
+        "Git/GitHub",
+        "Bitbucket",
+        "Visual Studio Code/Sublime Text 3"
+      ]
+    }
+  ],
+  "linguagem": [{
+      "name": "English",
+      "level": "Básico(escrever e ler)"
+    },
+    {
+      "name": "Português",
+      "level": "Fluente"
+    },
+    {
+      "name": "Libras",
+      "level": "Fluente"
+    }
+
+  ],
+  "education": [{
+    "institution": "Universidade Católica de Pernambuco - Unicap",
+    "area": "Ciência da Computação",
+    "studyType": "Bacharelado em",
+    "startDate": "2018.1-02-15",
+    "endDate": "Presente",
+    "gpa": "",
+    "courses": []
+  }],
+  "work": [{
+      "company": "AECISA Associação Educacional de Ciências da Saúde – FPS(Faculdade Pernambucana de Saúde).",
+      "position": "Analista Administrativo",
+      "website": "",
+      "startDate": "2010-04-01",
+      "endDate": "Presente",
+      "highlights": [
+        "Recebimento e conferência de provas, lançamentos de notas, rotinas
+        administrativas, criação e organização das planilhas no pacote Office e digitalização de processos.
+        "
+      ]
+    },
+    {
+      "company": "SPRRA Secretária de Produção Rural e Reforma Agrária",
+      "position": "Suporte Técnico(Estagiário)",
+      "website": "",
+      "startDate": "2004-11-01",
+      "endDate": "2005-12-31",
+      "highlights": [
+        "Apoio ao suporte técnico na área de informática, manutenção; revisões,
+        reparos / consertos, instalações / atualizações de software.
+        "
+      ]
+    }
+  ],
+  "certificates": [{
+      "title": "MEAN STACK: CRIANDO APLICAÇÕES COMPLETAS COM JAVASCRIPT",
+      "link_certificate": "https://cursos.alura.com.br/certificate/694b0a54-5c4d-4192-bf2f-c99ecdab2ee9",
+      "date": "2019-07-11",
+      "endDate": "2019-07-18",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "MEAN Stack é uma solução completa para desenvolvimento de aplicações Web na plataforma Node.js."
+    },
+    {
+      "title": "MONGODB: UMA ALTERNATIVA AOS BANCOS RELACIONAIS TRADICIONAIS",
+      "link_certificate": "https://cursos.alura.com.br/certificate/46ecff4e-cdd1-4a2f-92b6-606a4d40f1db",
+      "date": "2017-09-09",
+      "endDate": "2017-09-19",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Criando e inserindo em uma coleção, consultando os dados, atualizando dados, ordenado e limitando os dados e busca por proximidade"
+    },
+    {
+      "title": "NODE.JS: INOVANDO COM JAVASCRIPT NO BACKEND",
+      "link_certificate": "https://cursos.alura.com.br/certificate/9bd699a7-68f9-4146-b442-e9fc218ebc1e",
+      "date": "2017-04-10",
+      "endDate": "2017-09-05",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Instalação do NodeJs, coesão e acoplamento, organizando o código, verbos http, content negotiation, respeitando o accept, entendendo os detalhes, testes de integração, webSockets com socket.io, middlewares e deploy."
+    },
+    {
+      "title": "ELECTRON: CRIE APLICATIVOS DESKTOP COM AS TECNOLOGIAS DA WEB",
+      "link_certificate": "https://cursos.alura.com.br/certificate/dc613aa7-329b-4cac-9924-79674dc9cd5f",
+      "date": "2017-05-22",
+      "endDate": "2017-05-29",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Introdução, comunicação entre processos e janelas, implementando o Timer, salvando os dados do curso, adicionando a aplicação ao Tray, um formulário para adicionar cursos, o menu principal da aplicação, adicionando atalhos a aplicação e distribuição para os três Sistemas Operacionais"
+    },
+    {
+      "title": "VUE.JS PARTE 2: CONSTRUINDO SINGLE PAGE APPLICATIONS",
+      "link_certificate": "https://cursos.alura.com.br/certificate/af0ec963-0092-48f3-a766-edd94f4890f6",
+      "date": "2017-05-03",
+      "endDate": "2017-05-05",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Criando nossa própria diretiva, lidando com formulários, organizando ainda melhor nosso código, lidando com alteração de dados, validando formulários, o build do projeto, dicas e truques e considerações finais"
+    },
+    {
+      "title": "VUE.JS PARTE 1: CONSTRUINDO SINGLE PAGE APPLICATIONS",
+      "link_certificate": "https://cursos.alura.com.br/certificate/a822fd95-5e00-4f32-910c-8fbcb8ffc905",
+      "date": "2017-04-25",
+      "endDate": "2017-05-02",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Bem começado, metade feito, adequando o template gerado, integração com API de terceiros, criando componentes e encapsulamento de view, melhorando a UX com animações, Single Page Application e criação de rotas e um pouco mais sobre componentes"
+    },
+    {
+      "title": "JAVASCRIPT AVANÇADO III: ES6, ORIENTAÇÃO A OBJETOS E PADRÕES DE PROJETOS",
+      "link_certificate": "https://cursos.alura.com.br/certificate/7eca5339-d1c7-4f4f-9373-9f958421a42c",
+      "date": "2017-03-20",
+      "endDate": "2017-06-20",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Guardando negociações offline com IndexedDB, gerenciando nossa conexão com o pattern Factory, padronizando acesso aos dados com o pattern DAO, lapidando um pouco mais nossa aplicação, simplificando requisições Ajax com a Fetch API, tornando nosso código ainda mais compatível usando Babel e trabalhando com módulos do ES2015!"
+    },
+    {
+      "title": "JAVASCRIPT AVANÇADO II: ES6, ORIENTAÇÃO A OBJETOS E PADRÕES DE PROJETOS",
+      "link_certificate": "https://cursos.alura.com.br/certificate/c9085cfd-9290-4359-a5df-8493921630ac",
+      "date": "2017-01-23",
+      "endDate": "2017-03-08",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Como saber quando o modelo mudou?, existe modelo mentiroso? O padrão de projeto Proxy! E se alguém criasse nossos proxies? O Padrão de Projeto Factory, Importando negociações, combatendo Callback Hell com Promises, considerações finais e exercícios bônus"
+    },
+    {
+      "title": "JAVASCRIPT AVANÇADO I: ES6, ORIENTAÇÃO A OBJETOS E PADRÕES DE PROJETOS",
+      "link_certificate": "https://cursos.alura.com.br/certificate/0757c24f-9d8a-4fbb-bf9c-2d887a8f89f2",
+      "date": "2016-12-18",
+      "endDate": "2017-01-04",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Prólogo: regras, código e manutenção, especificando uma Negociação, a ligação entre as ações do usuário e o modelo, lidar com data é trabalhoso? Chame um ajudante! Temos o modelo, mas e a view? Generalizando a solução da nossa View."
+    },
+    {
+      "title": "JASMINE: TESTES AUTOMATIZADOS EM JAVASCRIPT",
+      "link_certificate": "https://cursos.alura.com.br/certificate/8239c700-5d78-45c2-9d5e-13d211328884",
+      "date": "2016-12-12",
+      "endDate": "2016-12-16",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Testes Automatizados, testando o que importa em um projeto real, códigos de Teste Legíveis, lidando com HTML e Interfaces e Test-Driven Development (TDD)."
+    },
+    {
+      "title": "EXPRESSÕES REGULARES: CAPTURANDO TEXTOS DE FORMA MÁGICA",
+      "link_certificate": "https://cursos.alura.com.br/certificate/48762e3f-caf4-477e-b807-c0dde984dd67",
+      "date": "2016-12-05",
+      "endDate": "2016-12-09",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Começando com Regex, classes de caracteres, encontrando a posição certa com âncoras, trabalhando com grupos, ganancioso ou preguiçoso e usando regex nas diversas linguagens"
+    },
+    {
+      "title": "HTTP: ENTENDENDO A WEB POR BAIXO DOS PANOS",
+      "link_certificate": "https://cursos.alura.com.br/certificate/da485269-3d06-462d-8acb-032684fa8acb",
+      "date": "2016-11-28",
+      "endDate": "2016-11-29",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "O que é o HTTP? A web segura - HTTPs, endereços sob seu domínio, o cliente pede e o servidor responde, depurando a requisição HTTP, parâmetros da requisição."
+    },
+    {
+      "title": "JSDay Recife",
+      "link_certificate": "https://drive.google.com/file/d/0B5edgdhTmRzfankzaVo1Q29WVzQ/view?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bl6g3DG%2FBSHyHYocOwe7iNg%3D%3D",
+      "date": "26/11/2016",
+      "issuing_body": "Faculdade CESAR",
+      "website": "http://rec.jsday.com.br/",
+      "summary": ""
+    },
+    {
+      "title": "JAVASCRIPT : PROGRAMANDO NA LINGUAGEM DA WEB",
+      "link_certificate": "https://cursos.alura.com.br/certificate/1a0267d2-3bec-431b-a08e-a45a3c34d05e",
+      "date": "2016-11-22",
+      "endDate": "2016-11-26",
+      "issuing_body": "Alura Online",
+      "website": "https://www.alura.com.br",
+      "summary": "Introdução, variáveis e comandos básicos conhecendo o DOM e organizando nosso código com objetos, coleções e loops, funções e os cidadãos de primeira classe, eventos e conhecendo o querySelector e adicionando novos pacientes"
+    },
+  ],
+}

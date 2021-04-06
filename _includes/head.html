@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!-- HEAD Start -->
 
@@ -64,3 +65,38 @@
 </head>
 
 <!-- HEAD End -->
+=======
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="{{ site.data.bio.basics.description }}">
+
+  <title>
+    {% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}
+  </title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css">
+
+  <!-- Load Techfolio CSS customizations -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-default.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-customizations.css">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
+
+  <!-- Load a rouge theme from the sample themes in css/rouge.
+       See https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+  -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css">
+
+  <link rel="canonical" href="https://filipeluiz.com.br">
+  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+  {% if site.mathjax %}
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
+
+
+</head>
+>>>>>>> 2c8fe1e6ed4fc8eb010a2f1c503d53b58da459ae
